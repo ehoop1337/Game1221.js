@@ -17,19 +17,20 @@ The game resembles "2048", the differences are: the dropout of cells 1 or 2, you
 
 ## Example
 ```html
-<style>
+...
+	<style>
 		#game > div:hover {
 			background: #e4e4e4 !important;
-            cursor: pointer !important;
-        }
-        .active {
-            background: orange !important;
-            color: #fff !important;
-        }
-        #game > div.active:hover {
-            background: orange !important;
-            cursor: pointer !important;
-        }
+		    cursor: pointer !important;
+		}
+		.active {
+		    background: orange !important;
+		    color: #fff !important;
+		}
+		#game > div.active:hover {
+		    background: orange !important;
+		    cursor: pointer !important;
+		}
 	</style>
 </head>
 <body>
@@ -39,6 +40,8 @@ The game resembles "2048", the differences are: the dropout of cells 1 or 2, you
 	<script>
 		let game = new Game1221("#game");
 	</script>
+</body>
+...
 ```
   
 ## Example jsFiddle
